@@ -1,15 +1,17 @@
 class Book
-  ### attr_accessor creates the methods that have bee commented out below
+  ### attr_accessor creates the methods that have been commented out below
   attr_accessor :author, :page_count, :genre
+  ### attr_reader creates the reader method for "title" commented out below
+  attr_reader :title
 
   def initialize(title)
     @title = title
   end
 
-  def title
-    @title
-  end
-
+  # def title
+  #   @title
+  # end
+  # 
   # def author=(author)
   #   @author = author
   # end
