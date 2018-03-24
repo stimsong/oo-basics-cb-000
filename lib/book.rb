@@ -1,5 +1,5 @@
 class Book
-  ### attr_accessor creates the methods that have bee commented out below 
+  ### attr_accessor creates the methods that have bee commented out below
   attr_accessor :author, :page_count, :genre
 
   def initialize(title)
